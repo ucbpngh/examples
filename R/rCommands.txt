@@ -1,0 +1,8 @@
+tree <- read.csv(file="trees91.csv",sep=",",head=TRUE)
+
+
+boxplot(tree$STBM,
+          main='Stem BioMass in Different CO2 Environments',
+	  ylab='BioMass of Stems')
+	  
+	  

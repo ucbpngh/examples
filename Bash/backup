@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "Backing up to Xgrid..."
+
+
+
+SOURCE="/Users/complex/backup/"
+DEST="/Volumes/fintannagle/backup"
+rsync -avzh "$SOURCE" "$DEST"
+
+
